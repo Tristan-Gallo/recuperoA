@@ -14,16 +14,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'pokemonRecupero'`, () => {
+  it(`should have as title 'esercitazione'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('pokemonRecupero');
+    expect(app.title).toEqual('esercitazione');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('pokemonRecupero app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('esercitazione app is running!');
   });
 });

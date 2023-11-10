@@ -1,0 +1,6 @@
+<div *ngFor = "let type of PokemonList.results">
+    <a routerLink="/tipi/{{getLastPart(type.url)}}">
+        {{type.name}}
+    </a>
+    <hr>
+</div>

@@ -5,11 +5,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { PokemonComponent } from './pokemon/pokemon.component';
+import { ListaTipiComponent } from './lista-tipi/lista-tipi.component';
+import { PokemonInfoComponent } from './pokemon-info/pokemon-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PokemonComponent
+    PokemonComponent,
+    ListaTipiComponent,
+    PokemonInfoComponent
   ],
   imports: [
     BrowserModule,
